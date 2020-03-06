@@ -10,7 +10,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        guard let self = `self` else { return }
+	<string>guard let self = `self` else { return }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7A7DFC1C-A82E-4EFC-A1EE-56F0A200A61B</string>
