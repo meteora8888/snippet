@@ -14,7 +14,7 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>04086B0F-CB3A-4776-9F72-5CD7C328EB12</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.YAML</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>Exception for a rule in swiftlint</string>
 	<key>IDECodeSnippetTitle</key>
