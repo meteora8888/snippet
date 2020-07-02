@@ -3,24 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>shared</string>
+	<string>lint</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static let shared : &lt;#SingletonClass#&gt; = &lt;#SingletonClass#&gt;()</string>
+	<string>// swiftlint:disable &lt;#rule1#&gt;
+// swiftlint:enable &lt;#rule1#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D0964789-8FAA-4A94-8E5B-D5178137F102</string>
+	<string>04086B0F-CB3A-4776-9F72-5CD7C328EB12</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.YAML</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Singleton pattern for Swift</string>
+	<string>Exception for a rule in swiftlint</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Singleton</string>
+	<string>Swiftlint exception</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
