@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lint</string>
+	<string>add</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>StringOrComment</string>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// swiftlint:disable &lt;#rule1#&gt;
-// swiftlint:enable &lt;#rule1#&gt;</string>
+	<string>\()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>04086B0F-CB3A-4776-9F72-5CD7C328EB12</string>
+	<string>10446297-4148-4E5B-96CF-13F25E5470BF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Exception for a rule in swiftlint</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swiftlint exception</string>
+	<string>String Variable Chain</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
