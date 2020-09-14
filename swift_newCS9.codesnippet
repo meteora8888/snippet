@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tpcellheight</string>
+	<string>tpcellestheight</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>tableProvider.configureCellHeight = { _, _, _, item in
+	<string>tableProvider.configureEstimatedCellHeight = { _, _, _, item in
     switch item {
     case .advertisement:
-    return UITableView.automaticDimension
+        return 100
     case .divider:
         return 1
     case .title:
@@ -20,15 +20,13 @@
     }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>795C3F07-45F6-4573-B68C-BFBA8AD555BD</string>
+	<string>160E800C-97B0-4B8F-9C25-44BD33D16F24</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Markdown</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tp cell height</string>
+	<string>tp cell estimated height</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

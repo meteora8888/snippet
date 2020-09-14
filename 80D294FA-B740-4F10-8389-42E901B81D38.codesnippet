@@ -3,35 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tpcellheight</string>
+	<string></string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>tableProvider.configureCellHeight = { _, _, _, item in
-    switch item {
-    case .advertisement:
-    return UITableView.automaticDimension
-    case .divider:
-        return 1
-    case .title:
-        return 24
-    }
-}</string>
+	<string>    enum Section: Sectionable {
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>795C3F07-45F6-4573-B68C-BFBA8AD555BD</string>
+	<string>80D294FA-B740-4F10-8389-42E901B81D38</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tp cell height</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

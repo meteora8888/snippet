@@ -3,32 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tpcellheight</string>
+	<string>tpcellselect</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>tableProvider.configureCellHeight = { _, _, _, item in
+	<string>tableProvider.configureOnItemSelected = { [unowned self] _, _, _, item in
     switch item {
     case .advertisement:
-    return UITableView.automaticDimension
+        print("Advertisement clicked")
     case .divider:
-        return 1
+        print("Advertisement clicked")
     case .title:
-        return 24
+        print("Title clicked")
     }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>795C3F07-45F6-4573-B68C-BFBA8AD555BD</string>
+	<string>37195599-1917-46D2-9F67-10927C48DF84</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Markdown</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tp cell height</string>
+	<string>tp on item select</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
