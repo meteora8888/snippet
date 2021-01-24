@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>actionpub</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    lazy var actionPublisher: AnyPublisher&lt;Void, Never&gt; = subject.eraseToAnyPublisher()
+    private let subject = PassthroughSubject&lt;Void, Never&gt;()
+    private let cancellables = Set&lt;AnyCancellable&gt;()
+
+    private func bindActionPublisher() {
+        &lt;# UIButton #&gt;.publisher(for: &lt;# Action #&gt;)
+            .sink{ [weak self] _ in
+                subject.send( () )
+            }.store(in: &amp;cancellables)
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A97AABD3-7212-4B8A-86E6-6DD6FB64B269</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Action Publisher</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
