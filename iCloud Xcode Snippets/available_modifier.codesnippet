@@ -3,27 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-sortarrayofstrings</string>
+	<string>avail</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#arrayOfStrings#&gt;.sorted { (a, b) -&gt; Bool in
-            let comparisonResult = a.compare(b, options: [], range: a.range(of: a), locale: Locale.current)
-            return comparisonResult == .orderedSame
-        }</string>
+	<string>@available(iOS &lt;#14.0#&gt;, *)
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B005E7A7-789D-43C2-873A-0DD8040EE2B8</string>
+	<string>70158AA6-FFC1-49F7-BC85-78CBAE9976C8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift String Array locale-aware sorting</string>
+	<string>Modiefier for available version</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift String Array locale-aware sorting</string>
+	<string>Available modifier</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

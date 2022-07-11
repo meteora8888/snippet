@@ -3,25 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string></string>
+	<string>doc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    enum Section: Sectionable {
-</string>
+	<string>    /// &lt;#Description#&gt;
+    ///
+    /// - Parameter Hello: nope
+    /// - Parameter Hello: nope
+    ///
+    /// - Warning: Never eat yellow snow
+    /// - Returns: &lt;#description#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>80D294FA-B740-4F10-8389-42E901B81D38</string>
+	<string>FEA15FAE-1709-4670-8218-7ECDEACDC0EC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>Doc</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

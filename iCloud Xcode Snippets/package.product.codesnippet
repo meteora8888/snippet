@@ -3,25 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weakss</string>
+	<string>prod</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[weak self] in
-            guard let self = self else { return }</string>
+	<string>.product(name: &lt;#ProductInPackageName#&gt;, package: &lt;#PackageName#&gt;),
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B5FFB5B9-1B62-49B5-B1E1-0749BBE07D42</string>
+	<string>F3D23827-61F3-409D-9EDE-83F76E61B220</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>weakify self in closure</string>
+	<string>Product in a package</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Weakify self</string>
+	<string>Package product</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

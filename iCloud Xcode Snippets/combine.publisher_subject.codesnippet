@@ -3,32 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tpcellheight</string>
+	<string></string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>tableProvider.configureCellHeight = { _, _, _, item in
-    switch item {
-    case .advertisement:
-    return UITableView.automaticDimension
-    case .divider:
-        return 1
-    case .title:
-        return 24
-    }
-}</string>
+	<string>    private(set) lazy var sendPublisher = sendSubject.eraseToAnyPublisher()
+    private let sendSubject = PassthroughSubject&lt;String, Never&gt;()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>795C3F07-45F6-4573-B68C-BFBA8AD555BD</string>
+	<string>B6396793-B46D-4C54-9F67-99E627BBE94D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tp cell height</string>
+	<string>Lazy Publisher Private Subject</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

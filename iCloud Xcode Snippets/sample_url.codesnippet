@@ -3,33 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tpsection</string>
+	<string>doge</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>enum Section: Sectionable {
-        
-    case sectionOne([Item])
-    case sectionTwo([Item])
-
-    struct Item {
-        let title: String       
-    }
-    
-}</string>
+	<string>URL(string: "https://i.pinimg.com/474x/e7/d8/33/e7d833852fc9e739e1d52c243efc4c81.jpg")!</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B425C575-654B-46D7-A31C-8DFFE916AEE6</string>
+	<string>013B20F8-A161-4A3B-BE55-812E640193A4</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Markdown</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Sample URL for test</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tpsection</string>
+	<string>Sample Doge URL</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

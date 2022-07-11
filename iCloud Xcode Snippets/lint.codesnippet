@@ -3,23 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>action</string>
+	<string>lint</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> @IBAction func &lt;# FuncName #&gt;(_ sender: AnyObject) {
-        &lt;# code #&gt;
-    }</string>
+	<string>    // swiftlint:disable &lt;#rule#&gt;
+    // swiftlint:enable &lt;#rule#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A913F681-E983-4127-B303-EDAC5EDD48AA</string>
+	<string>895BA3ED-2733-455D-88ED-7C410D185663</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Create IBAction method stub</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>IBAction</string>
+	<string>Lint Skip</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

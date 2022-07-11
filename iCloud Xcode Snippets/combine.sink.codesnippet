@@ -3,30 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string></string>
+	<string>.sink</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>class Section: Sectionable {
-    let items: [Item]
-    
-    enum Item {
-        case title
-        case divider
-        case advertisement
-    }
-    
-}</string>
+	<string>sink { [weak self] &lt;#result#&gt; in 
+    &lt;#handle closure#&gt;
+}
+.store(in: &amp;cancellables)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A99C1C8D-565E-4685-AD92-CB0F6FB37930</string>
+	<string>C8277918-6DC8-4559-92A4-044E94778752</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Markdown</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>SINK</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tp section</string>
+	<string>Custom SINK</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
